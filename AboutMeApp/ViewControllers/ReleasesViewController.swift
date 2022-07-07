@@ -29,7 +29,7 @@ class ReleasesViewController: UIViewController {
         
         releaseVC.labelName = release.labelName.rawValue
         releaseVC.link = release.link
-        releaseVC.title = release.albumName
+        releaseVC.releaseTitle = release.albumName
         releaseVC.tracklist = release.tracks
         releaseVC.artwork = UIImage.init(named: release.image) ?? UIImage.init(systemName: "stop")!
     }
